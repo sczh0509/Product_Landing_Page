@@ -1,0 +1,1 @@
+This is the third project of FreeCodeCamp's Responsive Web Design Course. The objective of this project is to create a product landing page with pure HTML and CSS.
