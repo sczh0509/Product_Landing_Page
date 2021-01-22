@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <title>Product Landing Page</title>
 </head>
 <body>
@@ -14,13 +17,13 @@
             <nav>
                 <a href="#" class="nav-link">Features</a>
                 <a href="#" class="nav-link">How It Works</a>
-                <a href="#">Pricing</a>
+                <a href="#pricing">Pricing</a>
             </nav>
         </div>
     </header>
     <main>
         <div id="title">
-            <p>Handcrafted, home-made masterpieces</p>
+            <p id="title-text">Handcrafted, home-made masterpieces</p>
         </div>
         <div id="form-container">
             <form action="#" id="form">
@@ -28,17 +31,14 @@
                     <input type="email" id="email" placeholder="Enter your email address" required>
                 </div>
                 <div class="button">
-                    <input type="submit" value="GET STARTED">
+                    <input type="submit" value="GET STARTED" id="submit-button">
                 </div>
             </form>
-        </div>
-        <div id="vid-container">
-            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/7RYkPRzyz8I?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div id="features">
             <div class="description">
                 <div class="logo">
-                    <img src="images/droplet.svg" alt="Droplet Icon">
+                    <img src="images/droplet.svg" alt="Droplet Icon" class="svg"> 
                 </div>
                 <div class="text">
                     <h2>Premium Materials</h2>
@@ -47,7 +47,7 @@
             </div>
             <div class="description">
                 <div class="logo">
-                    <img src="images/truck.svg" alt="truck logo">
+                    <img src="images/truck.svg" alt="truck logo" class="svg">
                 </div>
                 <div class="text">
                     <h2>Fast Shipping</h2>
@@ -56,13 +56,16 @@
             </div>
             <div class="description">
                 <div class="logo">
-                    <img src="images/battery-charging.svg" alt="battery icon">
+                    <img src="images/battery-charging.svg" alt="battery icon" class="svg">
                 </div>
                 <div class="text">
                     <h2>Quality Assurance</h2>
                     <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
                 </div>
             </div>
+        </div>
+        <div id="vid-container">
+            <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/7RYkPRzyz8I?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div id="pricing">
             <div class="card">

@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+#header-img {
+    width: 320px;
+}
+nav a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+#title {
+    display: flex;
+    justify-content: center;
+}
+#title-text {
+    font-size: 26px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    justify-content: space-evenly;
+}
+#email {
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+#submit-button {
+    width: 100px;
+    height: 40px;
+    background-color:yellow;
+    border: 1px solid yellow;
+    border-radius: 2px;
+}
+#submit-button:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+#features {
+    margin-top: 50px;
+    height:auto;
+}
+.description {
+    display: flex;
+    height: 150px;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+.text {
+    margin-left:50px;
+}
+.svg {
+    transform: scale(1.5);
+}
+.logo {
+    margin-left: 10px;
+}
+#vid-container {
+    display: flex;
+    justify-content: center;
+}
+#pricing {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 30vw;
+    margin-top: 70px;
+}
+.name {
+    font-size: 18px;
+    text-align: center;
+    background-color: lightgrey;
+    padding: 15px;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 35px;
+}
+.price {
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.select-button {
+    background-color: yellow;
+    border: 1px solid yellow;
+    border-radius: 2px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.select-button:hover {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+footer {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding: 10px;
+}
+#footer-links a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+#copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    color: grey;
+}
+@media (min-width:1000px) {
+    #pricing {
+        width: 1000px;
+    }
+    .card {
+        width: 300px;
+    }
+}
+@media (max-width:600px) {
+    
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 300px;
+    }
+}
+@media (max-width:800px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    nav a {
+        margin-right: 0;
+    }
+    .description {
+        width: 80%;
+    }
+}
+    
